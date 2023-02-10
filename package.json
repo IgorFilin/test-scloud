@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "test task",
   "main": "index.js",
+  "homepage": "https://IgorFilin.github.io/test-scloud",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +11,5 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2"
-  },
-  "dependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
