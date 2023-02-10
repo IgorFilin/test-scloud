@@ -1,0 +1,14 @@
+.report{
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.report__logo{
+    font-family: "PT Sans Caption Bold", sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.report__element{
+    width: 960px;
+}

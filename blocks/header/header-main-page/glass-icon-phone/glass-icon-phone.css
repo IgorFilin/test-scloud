@@ -1,0 +1,41 @@
+.glass-icon-phone {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.glass-icon-phone__phone {
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #6F6F6F;
+}
+
+.glass-icon-phone__glass-icon {
+    width: 15px;
+    height: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .glass-icon-phone__phone {
+        font-family: 'PT Sans Caption';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 19px;
+        color: #6F6F6F;
+        position: relative;
+        right: 60px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .glass-icon-phone__phone {
+        width: 200px;
+        position: relative;
+        bottom:10px;
+        left: 35px;
+    }
+}

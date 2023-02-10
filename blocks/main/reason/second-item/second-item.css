@@ -1,0 +1,12 @@
+.second-element{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 680px) {
+    .second-element{
+        flex-direction: column;
+        gap:20px;
+    }
+
+}

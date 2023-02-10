@@ -1,0 +1,22 @@
+.information {
+    display: flex;
+    font-family: "PT Sans Caption Bold", sans-serif;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #f76201;
+    margin-top: 20px;
+    width: 151px;
+}
+.information__text {
+    font-family: "PT Sans Caption Bold", sans-serif;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #f76201;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 1367px){
+    .information {
+       width: 151px;
+    }
+}

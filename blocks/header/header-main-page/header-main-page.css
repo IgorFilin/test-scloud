@@ -1,0 +1,13 @@
+.header-main-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 769px){
+    .header-main-page__logo{
+        width: 62px;
+        height: 40px;
+    }
+}

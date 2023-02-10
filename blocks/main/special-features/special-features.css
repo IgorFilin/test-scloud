@@ -1,0 +1,19 @@
+.special-features {
+    display: flex;
+    gap:25px;
+}
+
+@media screen and (max-width: 1367px){
+    .special-features {
+        display: flex;
+        gap:45px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .special-features {
+        display: flex;
+        flex-direction: column;
+        gap:12px;
+    }
+
+}

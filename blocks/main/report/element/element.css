@@ -1,0 +1,12 @@
+.element{
+    margin: 24px 0;
+    display: flex;
+}
+.element__icon{
+    margin-right: 32px;
+}
+.element__text{
+    font-family: "PT Sans Regular", sans-serif;
+    font-size: 20px;
+    color: #333333;
+}

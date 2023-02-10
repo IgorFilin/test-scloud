@@ -1,0 +1,33 @@
+.button{
+    cursor: pointer;
+    width: 160px;
+    background: #ff6600;
+    border-radius: 50px;
+    font-family: "PT Sans Caption Bold", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 18px;
+    box-sizing: border-box;
+    padding: 14px 0;
+    border: none;
+}
+.button-small-display{
+
+}
+
+@media screen and (max-width: 680px){
+    .button-small-display{
+        background: white;
+        font-family: 'PT Sans Caption';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FF6600;
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 15px;
+    }
+}

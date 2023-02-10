@@ -1,0 +1,38 @@
+.container {
+    width: 1200px;
+    height: 100%;
+}
+
+.container__header {
+    margin-top: 136px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1367px){
+    .container {
+        width: 990px;
+        height: 100%;
+    }
+
+    .container__header {
+        margin-top: 136px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1024px){
+    .menu__item_hide{
+        display: none;
+    }
+    .container {
+        width: 640px;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 680px){
+    .container {
+        width: 288px;
+        height: 100%;
+    }
+}

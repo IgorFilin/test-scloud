@@ -1,0 +1,64 @@
+.login-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-button__login {
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #6F6F6F;
+}
+
+.login-button__exit {
+    display: flex;
+    align-items: center;
+}
+
+.login-button__button {
+    width: 160px;
+    height: 48px;
+}
+
+.login-button__burger {
+    display: none;
+}
+
+@media screen and (max-width: 1367px) {
+    .login-button__exit {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .login-button__exit {
+        display: flex !important;
+    }
+
+    .login-button__burger {
+        display: inline-block !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .login-button__login {
+
+    }
+    .login-button__exit {
+        display: none !important;
+    }
+    .login-button{
+        position: relative;
+        right: 165px;
+        top: 15px;
+    }
+    .login-button__burger {
+        position: relative;
+        bottom: 15px;
+        right: 10px;
+    }
+}

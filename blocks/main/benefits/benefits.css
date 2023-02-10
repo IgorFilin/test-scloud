@@ -1,0 +1,13 @@
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+@media screen and (max-width: 1024px){
+    .benefits {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+}

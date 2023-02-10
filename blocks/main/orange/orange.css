@@ -1,0 +1,14 @@
+.orange{
+    color: #FF6600;
+}
+
+@media screen and (max-width: 680px){
+    .container {
+        width: 288px;
+        height: 100%;
+    }
+    .orange{
+        color: #333333;;
+    }
+
+}

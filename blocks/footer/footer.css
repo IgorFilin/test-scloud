@@ -1,0 +1,44 @@
+.footer {
+    background: #f4f4f4;
+    width: 100%;
+    height: 64px;
+}
+.footer__content{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 23px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__text{
+    font-family: "PT Sans Caption";
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #333333;
+}
+.footer__text_underline-none {
+    text-decoration: none;
+}
+@media screen and (max-width: 1367px){
+    .footer__content{
+        width: 990px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__content{
+        width: 640px;
+    }
+}
+@media screen and (max-width: 680px){
+    .footer__content{
+        width: 320px;
+        text-align: center;
+    }
+    .footer_hide{
+        display: none;
+    }
+    .footer__text_underline-none{
+        margin: 0 auto;
+    }
+}

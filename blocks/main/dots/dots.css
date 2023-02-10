@@ -1,0 +1,18 @@
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0px auto;
+    width: 150px;
+    display: flex;
+    gap:24px;
+}
+.dots__dot{
+    cursor: pointer;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: #999999;
+}
+.dots_active{
+    background:#FF6600;
+}

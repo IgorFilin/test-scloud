@@ -1,0 +1,31 @@
+.slider {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.slider__right{
+    position: relative;
+    right: 50px;
+    rotate: 180deg;
+}
+.slider__left {
+    position: relative;
+    left: 50px
+}
+.slider__body {
+    z-index: 1;
+    width: 791px;
+    height: 520px;
+}
+.slider-element{
+    height: 505px;
+}
+.slider-content__img{
+    height: 581px;
+    width: 774px;
+    display: none;
+}
+.slider__body_hide {
+   display: none;
+}

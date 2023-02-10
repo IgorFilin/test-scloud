@@ -1,0 +1,75 @@
+.trial {
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    height: 415px;
+    gap: 30px;
+}
+
+.trial__title {
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.trial__ps {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.trial__price {
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    color: #FF6600;
+}
+
+.trial__info {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.trial__button {
+    width: 288px;
+    height: 48px;
+}
+
+.trial__image {
+    width: 484px;
+    height: 306px;
+}
+
+@media screen and (max-width: 1367px) {
+    .trial__image {
+        width: 397px;
+        height: 252px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .trial__image {
+       display: none;
+    }
+}
+@media screen and (max-width: 680px) {
+    .trial {
+       width: 280px;
+        min-height: 573px;
+    }
+    .trial__info{
+        width: 280px;
+
+    }
+}

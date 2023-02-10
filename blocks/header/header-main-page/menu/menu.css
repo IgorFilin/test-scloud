@@ -1,0 +1,18 @@
+.menu{
+    display: flex;
+    gap:30px
+}
+.menu__item{
+    font-family: 'PT Sans Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #333333;
+}
+
+@media screen and (max-width: 1000px){
+    .menu__item_hide{
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+.item {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+@media screen and (max-width: 680px){
+  .item{
+      border-bottom: 1px solid #EAEAEA ;
+      padding-bottom: 30px;
+      margin-bottom: 25px;
+  }
+}

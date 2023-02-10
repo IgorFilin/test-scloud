@@ -1,0 +1,38 @@
+.special-features-container-items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.special-features-container-items__item_title {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+}
+.special-features-container-items__item_img{
+    width: 20px;
+    height: 20px;
+}
+.special-features-container-items__item {
+    display: flex;
+    gap:32px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1367px){
+    .login-button__exit{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 680px){
+    .special-features-container-items__item_title {
+        font-size: 14px;
+    }
+    .special-features-container-items {
+       word-break: break-word;
+        width: 287px;
+    }
+}

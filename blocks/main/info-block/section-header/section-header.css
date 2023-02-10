@@ -1,0 +1,43 @@
+.section-header {
+    margin-bottom: 26px;
+}
+
+.section__logo {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.section__logo_img {
+    display: none;
+    margin-left: 10px;
+    rotate: 180deg;
+}
+
+.section-text__item {
+    font-family: "PT Sans Regular", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+}
+
+@media screen and (max-width: 1024px) {
+    .section__logo {
+        width: 160px;
+    }
+
+    .section__logo_img {
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 680px) {
+    .section-header {
+        margin-bottom: 0px;
+    }
+    .section__logo{
+        width: 100%;
+    }
+}

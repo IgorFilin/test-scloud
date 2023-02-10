@@ -1,0 +1,130 @@
+.contacts {
+    width: 1200px;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 22px;
+    margin: 0 auto;
+}
+.contacts__icon {
+    margin-right: 36px;
+}
+.contacts__information{
+    width: 328px;
+    margin-right: 74px;
+}
+.contacts__phone {
+    font-family: "PT Sans Caption Bold", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+    margin-bottom: 14px;
+}
+.contacts__address {
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    width: 280px;
+}
+.contacts__social{
+    display: flex;
+    margin-right: 37px;
+    gap:9px;
+}
+.contacts__social_item{
+    margin: 0 5px;
+}
+.social-item_size{
+    width: 45px;
+    height: 45px;
+}
+.contacts__application{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__container {
+    display: flex;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 1367px){
+    .contacts {
+        width: 1000px;
+
+    }
+    .contacts__icon {
+        margin-right: 21px;
+    }
+    .contacts__information{
+        margin-right: 22px;
+        width: 240px;
+    }
+    .application-item{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+    .contacts__phone {
+        margin-bottom: 0px;
+    }
+    .contacts__address {
+       width: 240px;
+    }
+    .contacts__social{
+        margin-right: 12px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contacts {
+        width: 640px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 80px;
+        padding-bottom: 22px;
+        margin: 0 auto;
+    }
+    .contacts__container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 680px){
+    .contacts__container {
+        width: 320px;
+        display: flex;
+        margin-bottom: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts__application{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        align-items: center;
+    }
+    .contacts {
+        gap:15px;
+       flex-direction: column;
+    }
+    .contacts__social{
+        width: 320px;
+       justify-content: center;
+    }
+    .contacts__information{
+        text-align: center;
+        margin: 15px auto;
+    }
+    .contacts__phone{
+        margin-bottom: 10px;
+    }
+    .contacts__icon{
+        margin-left: 15px;
+    }
+}
